@@ -166,7 +166,7 @@ h5 {
 /* Your code starts here! */
 
 .container {
-    width: 900px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -254,7 +254,11 @@ h1 {
 
 .box2 {
     width: 100%;
-    padding: 5%;
+    padding: 1%;
+    margin-right: 2%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 0px;
 }
 
 .box3 {
@@ -339,7 +343,8 @@ h1 {
     }
     .box2 {
         margin: 30px 0px;
-        width: 46%;
+        width: 50%;
+        padding: 0px;
     }
     .secondsection {
         display: flex;
@@ -351,6 +356,7 @@ h1 {
         width: 31%;
         padding-left: 0px;
         padding-right: 0px;
+        margin-right: 1%;
     }
 }
 
